@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    /* background-image: url(../Images/bk.jpg); */
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+
+    border: 2px solid;
+    margin: 14px;
+    margin-top: 11px;
+    border-radius: 22px;
+}
+/* variable  */
+:root{
+    --background-color:#8A99;
+}
+/* outside font defind  */
+@font-face {
+    font-family: myfont;
+    src: url(ProtestStrike-Regular.ttf);
+}
+
+h1:hover {
+    color: rgb(46, 13, 192);
+    cursor: pointer;
+    border: 3px solid;
+    font-family: myfont;
+    background-color: aquamarine;
+    border-radius: 19px;
+}
+
+p {
+    margin-top: 11px;
+    font-family: myfont;
+    border-radius: 11px;
+    color: var(--background-color);
+    padding: 11px;
+    margin: 14px;
+    border: 2px solid;
+}
+
+img {
+    border-radius: 22px;
+    align-items: center;
+    margin-left: 42px;
+    justify-content: center;
+}
+
+img:hover {
+    color: aquamarine;
+    cursor: pointer;
+    border: 3px solid;
+    background-color: aquamarine;
+    border-radius: 19px;
+}
+
+h3 {
+    padding: 33px;
+    font-style: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+
+footer {
+
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}

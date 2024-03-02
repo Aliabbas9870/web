@@ -1,0 +1,34 @@
+.container {
+  background-color: #e4e3e3;
+  width: 57% px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px; }
+
+nav {
+  text-align: center;
+  background-color: #4242b4; }
+  nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #4242b4; }
+  nav li {
+    padding: 13px;
+    color: wheat;
+    list-style-type: none;
+    font-size: 23px;
+    height: 43px;
+    text-align: center;
+    padding-top: 11px; }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px; }
+  nav a:hover {
+    font-size: 28px;
+    border: 2px solid green;
+    border-radius: 13px;
+    color: #c5c9d3; }
+
+/*# sourceMappingURL=navbarTask.css.map */

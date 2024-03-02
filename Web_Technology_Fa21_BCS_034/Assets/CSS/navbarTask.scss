@@ -1,0 +1,41 @@
+
+.container{
+  background-color:rgb(228, 227, 227);
+  width: 57%px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+nav {
+    text-align: center;
+    background-color: rgb(66, 66, 180);
+    
+    ul {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+     background-color: rgb(66, 66, 180);
+    }
+    li {
+      padding: 13px;
+      color: wheat;
+      list-style-type: none;
+      font-size: 23px;
+      height: 43px;
+      text-align: center;
+      padding-top: 11px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 22px;
+    }
+    a:hover {
+      font-size: 28px;
+      border: 2px solid green;
+      border-radius: 13px;
+      color: rgb(197, 201, 211);
+    }
+  }

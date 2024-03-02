@@ -1,0 +1,26 @@
+@mixin margin($position,$value){
+    margin-#{$position}:$value +px;
+}
+
+.test1{
+    @include margin(right, 10);
+}
+
+@mixin set-icon($name){
+    icon-#{$name}{
+    background-image: url("../darkB.jpg");
+    }
+}
+
+*{
+    @include set-icon("Ali");
+}
+h1{
+    background-color: adjust-color($color: #000000, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
+}
+
+.color-function{
+    color: darken($color: #000000,  20);
+    color: lighten($color: #b41111,  10);
+    color: adjust-hue($color: #000000,  10);
+}
